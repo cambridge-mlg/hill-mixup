@@ -1,7 +1,12 @@
-`H-Mix` comprises three different ``flavors'' of human perceptual data over [mixup](https://arxiv.org/abs/1710.09412) images from the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset. We specify which section of our [paper](https://proceedings.mlr.press/v216/collins23a/collins23a.pdf) each dataset corresponds with. 
+`H-Mix` encompasses a compendium of different ``flavors'' of human perceptual data over [mixup](https://arxiv.org/abs/1710.09412) images from the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset. We specify which section of our [paper](https://proceedings.mlr.press/v216/collins23a/collins23a.pdf) each dataset corresponds with. 
 
-For each data subset, we include a (lightly processed) csv of the original human participant data, as well as a more processed version to facilitate experimentation.   
+For each data subset, we include a (lightly processed) csv of the original human participant data. Some column headers are the same across each dataset: 
+* `subj_id`: Each participant is assigned a random, unique ID. 
+* 
 
+We include dataset-specific details alongside each file.
+
+Specific datasets: 
 * `hmix_select_shuffled_midpoint.csv` and `hmix_construct_midpoint.csv`: Selection of the perceived 50/50 point from a set of mixed images (see Section 3), for each of the varieties (Select-Shuffled and Construct). 
      - Columns
 * `hmix_infer_mixing_factor.csv`: Inference of the generating mixing coefficient for a single image, tagged with annotator uncertainty (see Section 4 and 5).
