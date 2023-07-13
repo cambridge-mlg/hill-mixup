@@ -2,7 +2,7 @@
 
 For each data subset, we include a (lightly processed) csv of the original human participant data, as well as a more processed version to facilitate experimentation.   
 
-* `hmix_selection_midpoint.csv`: Selection of the perceived 50/50 point from a set of mixed images (see Section 3).
+* `hmix_select_shuffled_midpoint.csv` and `hmix_construct_midpoint.csv`: Selection of the perceived 50/50 point from a set of mixed images (see Section 3), for each of the varieties (Select-Shuffled and Construct). 
      - Columns
 * `hmix_infer_mixing_factor.csv`: Inference of the generating mixing coefficient for a single image, tagged with annotator uncertainty (see Section 4 and 5).
      - Columns
