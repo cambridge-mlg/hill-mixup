@@ -1,0 +1,12 @@
+`H-Mix` comprises three different ``flavors'' of human perceptual data over [mixup](https://arxiv.org/abs/1710.09412) images from the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset. We specify which section of our [paper](https://proceedings.mlr.press/v216/collins23a/collins23a.pdf) each dataset corresponds with. 
+
+For each data subset, we include a (lightly processed) csv of the original human participant data, as well as a more processed version to facilitate experimentation.   
+
+* `hmix_selection_midpoint.csv`: Selection of the perceived 50/50 point from a set of mixed images (see Section 3).
+     - Columns
+* `hmix_infer_mixing_factor.csv`: Inference of the generating mixing coefficient for a single image, tagged with annotator uncertainty (see Section 4 and 5).
+     - 
+* `hmix_categorical_soft_labels.csv`: Inference of the categories of the images being mixed, expressed as a [soft label from each annotator](https://arxiv.org/abs/2207.00810) (see Section 4.3.2).
+     - We include a processed set of labels in ``, following the [`CIFAR-10S` top-2 clamp with redistribution factor 0.1](https://github.com/cambridge-mlg/cifar-10s/tree/master/cifar10s_data). 
+     - 
+Details on the elicitation interfaces used to collect each dataset are included in the parent directory. Further details on participant recruitment are included in our [Supplement]().
