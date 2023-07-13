@@ -1,0 +1,1 @@
+README in progress wrt details about Pavlovia and how to load. Please ensure that any study run using our interfaces passes any respective institutional requirments wrt crowdsourcing / participant ethics!
