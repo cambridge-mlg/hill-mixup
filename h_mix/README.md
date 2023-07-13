@@ -9,4 +9,4 @@ For each data subset, we include a (lightly processed) csv of the original human
 * `hmix_categorical_soft_labels.csv`: Inference of the categories of the images being mixed, expressed as a [soft label from each annotator](https://arxiv.org/abs/2207.00810) (see Section 4.3.2).
      - We include a processed set of labels in ``, following the [`CIFAR-10S` top-2 clamp with redistribution factor 0.1](https://github.com/cambridge-mlg/cifar-10s/tree/master/cifar10s_data). 
      - 
-Details on the elicitation interfaces used to collect each dataset are included in the parent directory. Further details on participant recruitment are included in our [Supplement]().
+Details on the elicitation interfaces used to collect each dataset are included in the parent directory. Further details on participant recruitment are included in our [Supplement](). Please start a GitHub issue, or write to Katie Collins (kmc61@cam.ac.uk), with any questions! 
