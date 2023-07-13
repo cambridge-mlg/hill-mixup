@@ -6,7 +6,7 @@ Paper: https://proceedings.mlr.press/v216/collins23a/collins23a.pdf
 
 UAI, 2023
 
-REPOSITORY ACTIVELY IN PROGRESS!!! 
+REPOSITORY CONSTRUCTION ACTIVELY IN PROGRESS!!! 
 
 ## Abstract
 
