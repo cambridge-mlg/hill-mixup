@@ -39,3 +39,7 @@ If you use our data, elicitation interfaces, and/or code, please consider citing
 }
 
 ```
+
+## Questions?
+
+If you have any questions about `H-Mix`, `HILL MixE Suite`, or anything else around our paper, please do not hesitate to add a GitHub Issue and/or reach out to Katie Collins (`kmc61@cam.ac.uk`). 
