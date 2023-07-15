@@ -12,9 +12,9 @@ Each folder here can serve as a standalone interface. We have maintained the str
 If you do not wish to use Pavlovia, the code should be readily extendable; however, you will need to build your own experiment server or use another source. 
 
 We include further tips across the interfaces: 
-* Stimuli are housed in the "imgs"/ directory. We pre-construct mixed images by linearly combining random subsets of the CIFAR-10 images, as described in our [Supplement](https://proceedings.mlr.press/v216/collins23a/collins23a-supp.pdf). Batching of those images (i.e., which sets of stimuli a new participant should be allocated to) are specified in a json in the "resources/" directory. If you wish to run a similar experiment with different stimuli, we recommend changing those. You may wish to modify the demo images included in your instructions, depending on the adaptations you make. 
-* The task.js file houses the main experimental logic.
-* As mentioned above, please ensure to modify the consent.html as needed.
+* Stimuli are housed in the `"imgs"/` directory. We pre-construct mixed images by linearly combining random subsets of the `CIFAR-10` images, as described in our [Supplement](https://proceedings.mlr.press/v216/collins23a/collins23a-supp.pdf). Batching of those images (i.e., which sets of stimuli a new participant should be allocated to) are specified in a json in the `"resources/"` directory. If you wish to run a similar experiment with different stimuli, we recommend changing those. You may wish to modify the demo images included in your instructions, depending on the adaptations you make. 
+* The `task.js` file houses the main experimental logic.
+* As mentioned above, please ensure to modify the `consent.html` as needed.
 
 Please do not hesitate to post a GitHub issue or reach out to Katie Collins (kmc61@cam.ac.uk) with any questions regarding `HILL MixE Suite`.
 
