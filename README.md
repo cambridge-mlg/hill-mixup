@@ -3,6 +3,7 @@
 Katherine M. Collins, Umang Bhatt, Weiyang Liu, Vihari Piratla, Ilia Sucholutsky, Bradley Love, and Adrian Weller
 
 Main Paper: https://proceedings.mlr.press/v216/collins23a/collins23a.pdf
+
 Supplement: https://proceedings.mlr.press/v216/collins23a/collins23a-supp.pdf
 
 UAI, 2023
