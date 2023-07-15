@@ -2,7 +2,7 @@
 
 For each data subset, we include a (lightly processed) csv of the original human participant data. Some column headers are the same across each dataset: 
 * `subj_id`: Each participant is assigned a random, unique ID.
-* `class_pair`: A tag indicating the two images that are mixed. Formed as: `{endpoint_img1}_{img1_id}_{endpoint_img2}_{img2_id}`. Here, the image id matches the order of the unshuffled CIFAR-10 test images from the PyTorch CIFAR-10 dataloader. When a mixing coefficient `lambda` is expressed that means that we computed `lambda * img_1 + (1-lambda) * img_2`, in pixel-space.
+* `class_pair`: A tag indicating the two images that are mixed. Formed as: `{endpoint_img1}_{img1_id}_{endpoint_img2}_{img2_id}`. Here, the image id matches the order of the unshuffled `CIFAR-10` test images from the [PyTorch CIFAR-10 dataloader](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html?highlight=cifar). When a mixing coefficient `lambda` is expressed that means that we computed `lambda * img_1 + (1-lambda) * img_2`, in pixel-space.
 * `rt`: time spent on a page in msec
 * `condition`: the batch the participant was allocated to (note: while the same condition number usually coincides with the same stimuli, we occasionally ran experiments in rounds, so the same condition number may have different sets of images).
 
